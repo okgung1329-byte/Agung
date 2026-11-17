@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio - Agung</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ================= HERO SECTION ================= -->
+  <header class="hero">
+    <h1>Halo, saya Agung</h1>
+    <p>Web Developer Pemula yang suka bikin tampilan web elegan.</p>
+    
+    <!-- Tombol ini sekarang punya href="#projects" biar bisa scroll ke bawah -->
+    <a href="#projects" class="btn">Lihat Karya Saya</a>
+  </header>
+
+  <!-- ================= SECTION TENTANG ================= -->
+  <section class="about" id="about">
+    <h2 class="section-title fade-in">Tentang Saya</h2>
+    
+    <div class="about-container fade-in">
+      <!-- Kolom Kiri: Foto -->
+      <div class="about-photo">
+        <!-- Pastiin nama file fotonya sesuai ya, misal foto-profil.jpg -->
+        <img src="foto-profil.jpg" alt="Foto Agung">
+      </div>
+      
+      <!-- Kolom Kanan: Teks Biografi -->
+      <div class="about-text-content">
+        <h3>Halo, Saya Agung</h3>
+        <p>
+          Saya adalah seorang pemula yang memiliki ketertarikan besar di bidang <strong>Web Development</strong> dan <strong>CyberSecurity</strong>. 
+          Perjalanan saya dimulai dari rasa penasaran bagaimana sebuah website bisa berjalan, hingga akhirnya saya memutuskan untuk mendalaminya lewat HP.
+        </p>
+        <p>
+          Tujuan hidup saya saat ini adalah menjadi seorang profesional di bidang teknologi, khususnya dalam membangun sistem yang aman dan antarmuka yang nyaman digunakan. 
+          Di luar dunia IT, saya percaya bahwa konsistensi belajar sedikit demi sedikit akan membuahkan hasil yang besar.
+        </p>
+        
+        <!-- Skill Badges -->
+        <div class="skills">
+          <span>HTML</span>
+          <span>CSS</span>
+          <span>CyberSecurity</span>
+          <span>Linux Dasar</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ================= SECTION PROJECTS ================= -->
+  <!-- id="projects" ini yang jadi target tombol di atas tadi -->
+  <section class="projects" id="projects">
+    <h2 class="section-title fade-in">Karya Terbaru</h2>
+    
+    <div class="grid-projects">
+      
+      <!-- Kartu Proyek 1 -->
+      <div class="card fade-in">
+        <div class="card-image"><img src="img/proyek1.jpg" alt="Latihan Layout"></div>
+        <div class="card-content">
+          <h3>Latihan Membuat Layout</h3>
+          <p>Proyek latihan pertama saya menggunakan HTML dan CSS dasar untuk menyusun struktur website.</p>
+        </div>
+      </div>
+
+      <!-- Kartu Proyek 2 -->
+      <div class="card fade-in">
+        <div class="card-image"><img src="img/proyek2.jpg" alt="Eksplorasi UI"></div>
+        <div class="card-content">
+          <h3>Eksplorasi Desain UI</h3>
+          <p>Belajar membuat tampilan antarmuka (UI) sederhana bertema dark mode menggunakan CSS Flexbox.</p>
+        </div>
+      </div>
+
+      <!-- Kartu Proyek 3 -->
+      <div class="card fade-in">
+        <div class="card-image"><img src="img/proyek3.jpg" alt="Catatan CC"></div>
+        <div class="card-content">
+          <h3>Catatan Belajar CC</h3>
+          <p>Dokumentasi perjalanan saya mempelajari dasar-dasar CyberSecurity dan pengenalan sistem operasi Linux.</p>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+    <!-- ================= SECTION CONTACT / FOOTER ================= -->
+  <footer class="contact">
+    <h2 class="section-title fade-in">Mari Bekerja Sama</h2>
+    
+    <div class="contact-text fade-in">
+      <p>
+        Punya proyek menarik atau ingin berdiskusi seputar Web Dev & CyberSecurity? 
+        Jangan ragu untuk menghubungi saya.
+      </p>
+    </div>
+    
+    <div class="social-links fade-in">
+      <!-- Link Email -->
+      <a href="mailto:ok.gung1329@gmail.com">Email</a>
+      
+      <!-- Link GitHub (Ganti usernamekamu nanti) -->
+      <a href="https://github.com/usernamekamu" target="_blank">GitHub</a>
+      
+      <!-- Link LinkedIn (Ganti usernamekamu nanti) -->
+      <a href="https://linkedin.com/in/usernamekamu" target="_blank">LinkedIn</a>
+    </div>
+
+    <div class="copyright fade-in">
+      &copy; 2026 Agung. Dibuat dengan semangat belajar.
+    </div>
+  </footer>
+
+  <!-- Panggil file JavaScript di paling bawah -->
+  <script src="script.js"></script>
+
+</body>
+</html>
